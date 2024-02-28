@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="767dp"
+    android:layout_height="969dp"
+    tools:context=".guilding">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/guild5"
+        android:layout_width="214dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/exhibition5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/guild4"
+        app:layout_constraintTop_toBottomOf="@+id/guild2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/guild4"
+        android:layout_width="214dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="52dp"
+        android:src="@drawable/exhibition4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guild1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/guild6"
+        android:layout_width="214dp"
+        android:layout_height="236dp"
+        android:src="@drawable/exhibition6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toEndOf="@+id/guild5"
+        app:layout_constraintTop_toBottomOf="@+id/guild3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/guild3"
+        android:layout_width="214dp"
+        android:layout_height="236dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/exhibition3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toEndOf="@+id/guild2"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="121dp"
+        android:src="@drawable/logo1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="28dp"
+        android:text="活動導覽"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <VideoView
+        android:id="@+id/videoView"
+        android:layout_width="589dp"
+        android:layout_height="264dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/guild1"
+        android:layout_width="214dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/exhibition1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+    <ImageView
+        android:id="@+id/guild2"
+        android:layout_width="214dp"
+        android:layout_height="236dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/exhibition2"
+        app:layout_constraintStart_toEndOf="@+id/guild1"
+        app:layout_constraintTop_toBottomOf="@+id/videoView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
